@@ -1,5 +1,4 @@
 #calculadora
-
 import Operaciones
 encendido=True
 accion=''
