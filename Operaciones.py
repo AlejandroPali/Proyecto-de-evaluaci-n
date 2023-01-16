@@ -7,6 +7,7 @@ def menu():
     print('multiplicación')
     print('División')
     print('raiz')
+    print('Exponentes')
     print('Apagar')
 
 def suma(val1,val2):
@@ -34,12 +35,20 @@ def raiz(val1):
     print('Resultado: '+ str(raiz))
     return 
 
+def exponentes(val1,val2):
+    exponentes = int(val1)**int(val2)
+    print('Resultado: '+ str(exponentes))
+    return 
+
 def datos (operacion):
-    if operacion != 5:
+    if operacion != 5 & operacion !=6 :
         val1 = input('Ingresa el primer Valor: ')
         val2 = input('Ingresa el segundo Valor: ')
-    else :
+    elif operacion == 5 :
+        val1 = input('Ingresa el Valor a calcular: ')
+    elif operacion == 6:
         val1 = input('Ingresa el primer Valor: ')
+        val2 = input('A qué potencia: ')
 
     if operacion == 1:
         suma(val1,val2)
@@ -51,3 +60,5 @@ def datos (operacion):
         division(val1,val2)
     elif operacion == 5:
         raiz(val1)
+    elif operacion == 6:
+        exponentes(val1,val2)

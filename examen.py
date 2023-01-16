@@ -18,6 +18,8 @@ while encendido:
         Operaciones.datos(4)
     elif accion.lower() == 'raiz':
         Operaciones.datos(5)
+    elif accion.lower() == 'exponentes':
+        Operaciones.datos(6)
     elif accion.lower() == 'apagar':
         encendido = False
     else:
