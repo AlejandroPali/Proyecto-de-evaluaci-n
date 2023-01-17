@@ -1,7 +1,7 @@
 import math
 menus = ['suma','Resta','Multiplicacion', 'División','Raiz','Exponentes', 'Seno','Coseno', 'Tangente','Apagar','']
 def menu():
-    print('**********CALCULADORA*********')
+    print('********** CALCULADORA *********')
     for oper in menus:
         print(oper)
 
