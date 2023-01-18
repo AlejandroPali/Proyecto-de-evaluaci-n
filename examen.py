@@ -18,6 +18,14 @@ while encendido:
         Operaciones.datos(4)
     elif accion.lower() == 'raiz':
         Operaciones.datos(5)
+    elif accion.lower() == 'exponentes':
+        Operaciones.datos(6)
+    elif accion.lower() == 'seno':
+        Operaciones.datos(7)
+    elif accion.lower() == 'coseno':
+        Operaciones.datos(8)
+    elif accion.lower() == 'tangente':
+        Operaciones.datos(9)
     elif accion.lower() == 'apagar':
         encendido = False
     else:
